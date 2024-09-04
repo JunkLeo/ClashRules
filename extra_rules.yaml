@@ -1,0 +1,9 @@
++rules:
+  - DOMAIN,my.niceduck.io,DIRECT
+  - DOMAIN-SUFFIX,idc35.com,HK
+  - DOMAIN-SUFFIX,quayag.lol,DIRECT
+  - DOMAIN-SUFFIX,aca.best,Emby
+  - DOMAIN-KEYWORD,niceduck,Emby
+  - DOMAIN-KEYWORD,magpie,Emby
+  - DOMAIN-KEYWORD,facmata,DIRECT
+  - DOMAIN-KEYWORD,shannon,DIRECT
