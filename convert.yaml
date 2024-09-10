@@ -103,133 +103,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.yaml
 
 proxy-groups:
-  - name: Auto
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
-    type: url-test
-    interval: 60
-    include-all: true
-  - name: Manual
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Select.png
-    type: select
-    include-all: true
-  - name: OpenAI
-    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OpenAI-1.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-  - name: Apple
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Apple.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-      - DIRECT
-  - name: Google
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-  - name: Microsoft
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-      - DIRECT
-  - name: GitHub
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/GitHub.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-  - name: Telegram
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-  - name: YouTube
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/YouTube.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-  - name: Netflix
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-  - name: GlobalMedia
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Streaming.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-  - name: Game
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Steam.png
-    type: select
-    proxies: 
-      - HK
-      - US
-      - SG
-      - JP
-      - TW
-      - Auto
-      - Manual
-      - DIRECT
-  - name: Emby
-    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
-    type: select
-    filter: 实验性|日用|Emby|0.5|0.2|Fancy|NiceDuck|Halo|TKV|WestData
-    include-all: true
   - name: HK
     icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/HK02.png
     type: url-test
@@ -254,24 +127,102 @@ proxy-groups:
     interval: 60
     filter: 日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     include-all: true
-  - name: TW
-    icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/TW.png
-    type: url-test
-    interval: 60
-    filter: 台|新北|彰化|TW|Taiwan
-    include-all: true
-    hidden: null
-  - name: Final
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Final.png
+  - name: Emby
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     type: select
-    proxies: 
+    filter: 实验性|日用|Emby|0.5|0.2|Fancy|NiceDuck|Halo|TKV|WestData
+    include-all: true
+  - name: Apple
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Apple.png
+    type: select
+    proxies:
       - HK
       - US
       - SG
       - JP
-      - TW
-      - Auto
-      - Manual
+      - DIRECT
+  - name: Microsoft
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+      - DIRECT
+  - name: Google
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+  - name: GitHub
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/GitHub.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+  - name: Telegram
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+  - name: Netflix
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+  - name: YouTube
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/YouTube.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+  - name: OpenAI
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OpenAI-1.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+  - name: GlobalMedia
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Streaming.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+  - name: Game
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Steam.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
+      - DIRECT
+  - name: Final
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Final.png
+    type: select
+    proxies:
+      - HK
+      - US
+      - SG
+      - JP
       - DIRECT
 
 rules:
@@ -291,7 +242,7 @@ rules:
   - RULE-SET,SteamCN,Game
   - RULE-SET,Epic,Game
   - RULE-SET,Origin,Game
-  - RULE-SET,Proxy,Manual
+  - RULE-SET,Proxy,HK
   - GEOIP,CN,DIRECT
   - MATCH,Final
 
