@@ -101,7 +101,6 @@ rule-providers:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.yaml
-
 proxy-groups:
   - name: HK
     icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/HK02.png
@@ -130,7 +129,11 @@ proxy-groups:
   - name: Emby
     icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     type: select
-    filter: 实验性|日用|Emby|0.5|0.2|Fancy|NiceDuck|Halo|TKV|WestData
+    include-all: true
+  - name: Emby_SNTP
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
+    type: select
+    filter: 守候|SNTP
     include-all: true
   - name: Apple
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Apple.png
@@ -224,7 +227,6 @@ proxy-groups:
       - SG
       - JP
       - DIRECT
-
 rules:
   - RULE-SET,Lan,DIRECT
   - RULE-SET,China,DIRECT
@@ -245,4 +247,3 @@ rules:
   - RULE-SET,Proxy,HK
   - GEOIP,CN,DIRECT
   - MATCH,Final
-
