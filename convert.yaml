@@ -130,11 +130,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     type: select
     include-all: true
-  - name: Emby_SNTP
-    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/shouhou%282%29.png
-    type: select
-    filter: 守候|SNTP
-    include-all: true
   - name: Apple
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Apple.png
     type: select

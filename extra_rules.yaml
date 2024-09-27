@@ -1,9 +1,9 @@
 +rules:
   - DOMAIN,my.niceduck.io,DIRECT
-  - DOMAIN-SUFFIX,cn2gias.uk,Emby_SNTP
-  - DOMAIN-SUFFIX,as174.com,Emby
-  - DOMAIN-SUFFIX,aca.best,Emby
   - DOMAIN-KEYWORD,niceduck,Emby
   - DOMAIN-KEYWORD,facmata,DIRECT
   - DOMAIN-KEYWORD,shannon,DIRECT
+  - DOMAIN-SUFFIX,aca.best,Emby
+  - DOMAIN-SUFFIX,as174.com,Emby
+  - DOMAIN-SUFFIX,cn2gias.uk,Emby
   - DOMAIN-SUFFIX,023168.xyz,Emby
