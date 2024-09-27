@@ -131,7 +131,7 @@ proxy-groups:
     type: select
     include-all: true
   - name: Emby_SNTP
-    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/shouhou%282%29.png
     type: select
     filter: 守候|SNTP
     include-all: true
