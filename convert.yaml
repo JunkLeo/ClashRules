@@ -126,6 +126,12 @@ proxy-groups:
     interval: 60
     filter: 日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     include-all: true
+  - name: MO
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/MO.png
+    type: url-test
+    interval: 60
+    filter: 澳门
+    include-all: true
   - name: Emby
     icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     type: select
@@ -188,6 +194,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - MO
   - name: OpenAI
     icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OpenAI-1.png
     type: select
