@@ -100,37 +100,36 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/HK02.png
     type: url-test
     interval: 60
-    filter: 港|HK|hk|Hong Kong|HongKong|hongkong
+    filter: 🇭🇰
     include-all: true
   - name: US
     icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/US.png
     type: url-test
     interval: 60
-    filter: 美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    filter: 🇺🇸
     include-all: true
   - name: SG
     icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/SG.png
     type: url-test
     interval: 60
-    filter: 新加坡|坡|狮城|SG|Singapore
+    filter: 🇸🇬
     include-all: true
   - name: JP
     icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/JP.png
     type: url-test
     interval: 60
-    filter: 日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    filter: 🇯🇵
     include-all: true
   - name: MO
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/MO.png
     type: url-test
     interval: 60
-    filter: 澳门
+    filter: 🇲🇴
     include-all: true
   - name: Emby
     icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     type: select
     include-all: true
-    filter: 美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
   - name: Apple
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Apple.png
     type: select
