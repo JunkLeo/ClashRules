@@ -130,7 +130,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/TW.png
     type: url-test
     interval: 60
-    filter: 🇹🇼
+    filter: 🇼🇸
     include-all: true
   - name: VPS
     icon: https://raw.githubusercontent.com/black2c7/TheMagic-Icons/main/Icons/VPS.png
