@@ -126,6 +126,18 @@ proxy-groups:
     interval: 60
     filter: 🇲🇴
     include-all: true
+  - name: TW
+    icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/TW.png
+    type: url-test
+    interval: 60
+    filter: 🇹🇼
+    include-all: true
+  - name: VPS
+    icon: https://raw.githubusercontent.com/black2c7/TheMagic-Icons/main/Icons/VPS.png
+    type: url-test
+    interval: 60
+    filter: VPS
+    include-all: true
   - name: Emby
     icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     type: select
@@ -138,6 +150,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
       - DIRECT
   - name: Microsoft
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png
@@ -147,6 +160,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
       - DIRECT
   - name: Google
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
@@ -156,6 +170,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
   - name: GitHub
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/GitHub.png
     type: select
@@ -164,6 +179,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
   - name: Telegram
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png
     type: select
@@ -172,6 +188,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
   - name: Netflix
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png
     type: select
@@ -180,6 +197,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
   - name: YouTube
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/YouTube.png
     type: select
@@ -188,6 +206,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
       - MO
   - name: OpenAI
     icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OpenAI-1.png
@@ -197,6 +216,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
   - name: GlobalMedia
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Streaming.png
     type: select
@@ -205,6 +225,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
   - name: Game
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Steam.png
     type: select
@@ -213,6 +234,7 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
       - DIRECT
   - name: Final
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Final.png
@@ -222,8 +244,12 @@ proxy-groups:
       - US
       - SG
       - JP
+      - TW
+      - MO
+      - VPS
       - DIRECT
 rules:
+  - GEOIP,CN,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,China,DIRECT
   - RULE-SET,OpenAI,OpenAI
@@ -240,5 +266,4 @@ rules:
   - RULE-SET,Epic,Game
   - RULE-SET,Origin,Game
   - RULE-SET,Proxy,HK
-  - GEOIP,CN,DIRECT
   - MATCH,Final
