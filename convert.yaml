@@ -126,12 +126,6 @@ proxy-groups:
     interval: 60
     filter: 🇼🇸
     include-all: true
-  - name: VPS
-    icon: https://raw.githubusercontent.com/black2c7/TheMagic-Icons/main/Icons/VPS.png
-    type: url-test
-    interval: 60
-    filter: VPS
-    include-all: true
   - name: Emby
     icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     type: select
@@ -231,7 +225,6 @@ proxy-groups:
       - JP
       - TW
       - MO
-      - VPS
       - DIRECT
 rules:
   - GEOIP,CN,DIRECT
