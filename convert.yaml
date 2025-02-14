@@ -227,6 +227,14 @@ proxy-groups:
       - MO
       - DIRECT
 rules:
+  - DOMAIN,jcf.niceduck.lol,SG
+  - DOMAIN,cf.niceduck.lol,Emby
+  - DOMAIN,dpxcf.niceduck.lol,Emby
+  - DOMAIN-SUFFIX,cn2gias.uk,Emby
+  - DOMAIN-SUFFIX,023168.xyz,Emby
+  - DOMAIN-KEYWORD,makima,DIRECT
+  - DOMAIN-SUFFIX,linux.do,HK
+  - DOMAIN-SUFFIX,nodeseek.com,HK
   - GEOIP,CN,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,China,DIRECT
@@ -244,13 +252,3 @@ rules:
   - RULE-SET,Origin,Game
   - RULE-SET,Proxy,HK
   - MATCH,Final
-+rules:
-  - DOMAIN,jcf.niceduck.lol,SG
-  - DOMAIN,cf.niceduck.lol,Emby
-  - DOMAIN,dpxcf.niceduck.lol,Emby
-  - DOMAIN-SUFFIX,cn2gias.uk,Emby
-  - DOMAIN-SUFFIX,023168.xyz,Emby
-  - DOMAIN-SUFFIX,aca.best,Emby
-  - DOMAIN-KEYWORD,makima,DIRECT
-  - DOMAIN-SUFFIX,linux.do,HK
-  - DOMAIN-SUFFIX,nodeseek.com,HK
